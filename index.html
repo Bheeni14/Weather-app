@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="theme-toggle">
+            <button id="toggle-theme">Switch to Dark Mode</button>
+        </div>
+        <div class="search">
+            <input type="text" class="searchbar" placeholder="Enter city name...">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="weather" id="weather">
+            <h2 class="city">Weather in <span id="city-name">Durgapur</span></h2>
+            <h1 class="temp" id="temp">45°C</h1>
+            <div class="flex">
+                <img src="" class="icon" id="weather-icon" alt="Weather Icon">
+                <div class="description" id="description">Cloudy</div>
+            </div>
+            <div class="humidity" id="humidity">Humidity: 60%</div>
+            <div class="wind" id="wind">Wind speed: 6.2 km/h</div>
+        </div>
+    </div>
+</body>
+</html>
